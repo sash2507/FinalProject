@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+}
+nav ul {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 14px;
+	background-color: lightgrey;
+	display: inline-block;
+}
+nav li {
+	display: inline;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+}
+li a {
+	text-decoration: none;
+	color: #FF0066;
+	font-size: 14px;
+	font-weight: bold;
+}
+li a:hover {
+	text-decoration: none;
+	background-color: #E0FFFF;
+	color: #000000;
+	width: 100%;
+	padding: 10px;
+	border: 3px;
+	border-radius: 5px;
+}
+a {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Verdana", sans-serif;
+}
+#pglocation {
+	margin-left: 8%;
+	margin-top: 3%;
+}
+.summit {
+	width: 45%;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	float: left;
+}
+#aboutsummit {
+	width: 25%;
+	height: 295px;
+	background-color: lightblue;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	float: left;
+}
+#rideone {
+	background-color: lavender;
+	border-radius: 10px;
+	padding: 20px;
+	width: 85%;
+	margin: auto;
+	margin-top: 3%;
+}
+h4 {
+	font-family: "Tahoma", sans-serif;
+	font-size: 17px;
+	margin-top: 0px;
+}
+li {
+	list-style: none;
+	font-family: "Tahoma", sans-serif;
+	font-size: 14px;
+}
+.clear {
+	clear: both;
+}
