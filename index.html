@@ -32,17 +32,38 @@
 		<!-- Bread Crumb Trail -->
 		<div id="pglocation">
 				<i class="fa fa-home"></i><a href="main.html">Home ></a>
-				<a href="rides.html">Attractions ></a>
-				<a href="">Adventures</a>
 		</div>
 
 <!-- Main Page Begins -->
 
-		<div id="map">
-			<img src = "images/mapimage1.jpg">	
+		<div id="mapwrap"> <!-- lavender box, unifying element on all pages. Contains map.-->
+
+			<!-- complicated thing where the interactive map lives. -->
+
+			<div class="mapcontainer"> <!-- holds both image of the map and the little markers that are the links -->
+				<img src="images/mapimage.jpg">
+
+			
+				<!-- each of these corresponds to a clickable position on the map.
+
+				<issues>
+				I need to know if I need to create a unique for each hotspot (eg mapoverlay1, mapoverlay2) or if there is a way I can make each hotspot unique in the HTML so there is only 1 class in the CSS sheet. Kim-->
+
+				<!-- another issue is that I need to compensate for the fact that the mapoverlay div appears to move slightly downward in its absolute positioning relative to the map when the page is made more narrow, because the elements behind the objecttag get taller as they get narrower -->
+				<div class="mapoverlay">
+				  <a href="rides.html"><img src="images/objecttag.jpg"></a>
+				</div>	
+			
+
+
+			</div>
+
+		
 		</div>
 
-		<div class="aboutwrap">
+
+
+		<div class="aboutwrap"> <!-- same styling as mapwrap and other boxes on other pages. Unifying element.  -->
 			<div class=aboutbox>
 				<h4>Welcome to Archaeo-World!</h4>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt sunt, non aut nulla corporis officiis, consequuntur maxime nobis assumenda possimus earum ut consectetur. Tenetur ex incidunt dicta reprehenderit veritatis maiores.

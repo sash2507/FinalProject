@@ -64,7 +64,7 @@ a {
 
 /*Index Page styling with some elements repeated across linked pages*/
 
-#map, .aboutwrap, #rideone {
+#mapwrap, .aboutwrap, #rideone {
 	background-color: lavender;
 	border-radius: 10px;
 	padding: 20px;
@@ -73,10 +73,34 @@ a {
 	margin-top: 3%;
 }
 
-#map img {
+/*Index page Map with clickable elements*/
+
+#mapwrap .mapcontainer {
 	width:98%;
+	margin:auto;
 }
 
+
+#mapwrap .mapcontainer img {
+	width:100%;
+	display:block;	
+	margin:auto;
+}
+
+/*do I need to create several unique ones of these for each objecttag or can I style several with this one class?*/
+.mapoverlay {
+	position:absolute;
+	top:75%;
+	left:55%;
+	width:10%;
+	height:5%;
+}
+
+.mapoverlay img {
+	width:100%;
+}
+
+/*Index Page About Box below Map*/
 .aboutbox {
 	width:98%;
 	height: 98%;
