@@ -1,13 +1,18 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	background-image: url("background2.jpg");
+}
 nav ul {
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
-	padding: 14px;
-	background-color: lightgrey;
+	background-color: #FFFAFA;
 	display: inline-block;
+	text-align: center;
+	padding: 14px;
+	border-radius: 5px;
 }
 nav li {
 	display: inline;
@@ -19,47 +24,58 @@ li a {
 	text-decoration: none;
 	color: #FF0066;
 	font-size: 14px;
-	font-weight: bold;
+	font-family: "Arial", sans-serif;
+	margin: 0px 0px 30px 30px;
 }
 li a:hover {
 	text-decoration: none;
-	background-color: #E0FFFF;
 	color: #000000;
 	width: 100%;
 	padding: 10px;
 	border: 3px;
-	border-radius: 5px;
 }
 a {
 	text-decoration: none;
 	font-size: 12px;
-	font-family: "Verdana", sans-serif;
+	font-family: "Arial", sans-serif;
+	color: white;
 }
 #pglocation {
 	margin-left: 8%;
 	margin-top: 3%;
+	color: white;
 }
-.summit {
+.rideimage {
 	width: 45%;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	float: left;
 }
-#aboutsummit {
+.aboutride {
 	width: 25%;
-	height: 295px;
+	height: 295px; /*How to make this equal to image height?*/
 	background-color: lightblue;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	float: left;
 }
-#rideone {
+.ride {
 	background-color: lavender;
 	border-radius: 10px;
 	padding: 20px;
 	width: 85%;
 	margin: auto;
 	margin-top: 3%;
+}
+.description {
+	width: 25%;
+	font-size: 14px;
+	font-family: "Tahoma", sans-serif;
+	background-color: #AFEEEE;
+	margin-left: 25px;
+	border-radius: 10px;
+	padding: 10px;
+	float: left;
 }
 h4 {
 	font-family: "Tahoma", sans-serif;
