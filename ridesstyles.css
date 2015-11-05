@@ -73,6 +73,10 @@ a {
 	margin-top: 3%;
 }
 
+#map img {
+	width:98%;
+}
+
 .aboutbox {
 	width:98%;
 	height: 98%;
