@@ -2,7 +2,6 @@
 * {
 	box-sizing: border-box;
 }
-
 .background {
 	background-image: url("images-saloni/background2.jpg");
 	position: fixed;
@@ -10,7 +9,6 @@
 	height: 100%;
 	z-index: -1;
 }
-
 /*Styling of this div is a placeholder. I intend to create a logo img for this header.*/
 .header {
 	width:100%;
@@ -20,10 +18,8 @@
 	height: 100px;
 	text-align:center;
 	font-family:Verdana;
-}
-	
+}	
 /*Nav Bar and Breadcrumbs styling*/
-
 nav ul {
 	width: 100%;
 	margin-right: auto;
@@ -58,23 +54,18 @@ li a:hover {
 	padding: 10px;
 	border: 3px;
 }
-
 a {
 	text-decoration: none;
 	font-size: 12px;
 	font-family: "Arial", sans-serif;
 	color: white;
 }
-
-
 #pglocation {
 	margin-left: 8%;
 	margin-top: 3%;
 	color: white;
 }
-
 /*Index Page styling with some elements repeated across linked pages*/
-
 #mapwrap, .aboutwrap, #rideone {
 	background-color: lavender;
 	border-radius: 10px;
@@ -83,21 +74,16 @@ a {
 	margin: auto;
 	margin-top: 3%;
 }
-
 /*Index page Map with clickable elements*/
-
 #mapwrap .mapcontainer {
 	width:98%;
 	margin:auto;
 }
-
-
 #mapwrap .mapcontainer img {
 	width:100%;
 	display:block;	
 	margin:auto;
 }
-
 /*do I need to create several unique ones of these for each objecttag or can I style several with this one class?*/
 .mapoverlay {
 	position:absolute;
@@ -129,8 +115,6 @@ a {
 .aboutbox p {
 	font-size:15px;
 }
-
-
 .aboutbox li {
 	list-style: none;
 	font-size: 15px;
@@ -155,7 +139,6 @@ a {
 	border-bottom-right-radius: 10px;
 	float: left;
 }
-
 .ride {
 	background-color: lavender;
 	border-radius: 10px;
@@ -174,23 +157,16 @@ a {
 	padding: 10px;
 	float: left;
 }
-
 h4 {
 	font-family: "Tahoma", sans-serif;
 	font-size: 17px;
 	margin-top: 0px;
 }
-
-
 li {
 	list-style: none;
 	font-family: "Tahoma", sans-serif;
 	font-size: 14px;
 }
-
-
-
-
 .clear {
 	clear: both;
 }
