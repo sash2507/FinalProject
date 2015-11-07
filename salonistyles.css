@@ -2,6 +2,7 @@
 * {
 	box-sizing: border-box;
 }
+/*Creates a uniform background using background image*/
 .background {
 	background-image: url("images-saloni/background2.jpg");
 	position: fixed;
@@ -18,26 +19,23 @@
 	height: 100px;
 	text-align:center;
 	font-family:Verdana;
-}	
-/*Nav Bar and Breadcrumbs styling*/
+}
+/*Nav Bar styling*/
 nav ul {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	background-color: #FFFAFA;
+	width: 95%;
+	margin: 20px;
+	background-color: #AFEEEE;
 	display: inline-block;
 	text-align: center;
 	padding: 14px;
 	border-radius: 5px;
 }
-
 nav li {
 	display: inline;
 	color: #000000;
 	text-decoration: none;
 	padding: 10px;
 }
-
 li a {
 	text-decoration: none;
 	color: #FF0066;
@@ -46,7 +44,6 @@ li a {
 	font-weight: bold;
 	margin: 0px 0px 30px 30px;
 }
-
 li a:hover {
 	text-decoration: none;
 	color: #000000;
@@ -65,75 +62,16 @@ a {
 	margin-top: 3%;
 	color: white;
 }
-/*Index Page styling with some elements repeated across linked pages*/
-#mapwrap, .aboutwrap, #rideone {
-	background-color: lavender;
-	border-radius: 10px;
-	padding: 20px;
-	width: 85%;
-	margin: auto;
-	margin-top: 3%;
-}
-/*Index page Map with clickable elements*/
-#mapwrap .mapcontainer {
-	width:98%;
-	margin:auto;
-}
-#mapwrap .mapcontainer img {
-	width:100%;
-	display:block;	
-	margin:auto;
-}
-/*do I need to create several unique ones of these for each objecttag or can I style several with this one class?*/
-.mapoverlay {
-	position:absolute;
-	top:75%;
-	left:55%;
-	width:10%;
-	height:5%;
-}
-
-.mapoverlay img {
-	width:100%;
-}
-
-/*Index Page About Box below Map*/
-.aboutbox {
-	width:98%;
-	height: 98%;
-	background-color: white;
-	margin:auto;
-	padding:2%;
-	font-family: "Tahoma", sans-serif;
-}
-
-.aboutbox h4 {	
-	font-size: 20px;
-	text-align:center;
-}
-
-.aboutbox p {
-	font-size:15px;
-}
-.aboutbox li {
-	list-style: none;
-	font-size: 15px;
-}
-
-
-
 /*Ride Page Styling*/
-
 .rideimage {
 	width: 45%;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	float: left;
 }
-
 .aboutride {
 	width: 25%;
-	height: 295px; /*How to make this equal to image height?*/
+	height: 295px; 
 	background-color: lightblue;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
