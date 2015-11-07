@@ -87,27 +87,28 @@ a {
 /*Index page Map with clickable elements*/
 
 #mapwrap .mapcontainer {
+	position:relative;
 	width:98%;
 	margin:auto;
 }
 
 
-#mapwrap .mapcontainer img {
-	width:100%;
+#mapwrap img {
+	width:98%;
 	display:block;	
 	margin:auto;
 }
 
 /*do I need to create several unique ones of these for each objecttag or can I style several with this one class?*/
-.mapoverlay {
+.mapoverlay1 {
 	position:absolute;
-	top:75%;
+	top:50%;
 	left:55%;
 	width:10%;
 	height:5%;
 }
 
-.mapoverlay img {
+.mapoverlay1 img {
 	width:100%;
 }
 
