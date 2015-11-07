@@ -59,17 +59,17 @@ li a:hover {
 	border: 3px;
 }
 
-a {
-	text-decoration: none;
-	font-size: 12px;
-	font-family: "Arial", sans-serif;
-	color: white;
-}
-
 
 #pglocation {
 	margin-left: 8%;
 	margin-top: 3%;
+	color: white;
+}
+
+#pglocation a {
+	text-decoration: none;
+	font-size: 12px;
+	font-family: "Arial", sans-serif;
 	color: white;
 }
 
@@ -92,25 +92,40 @@ a {
 	margin:auto;
 }
 
-
+/*This is the large image of the map*/
 #mapwrap img {
 	width:98%;
 	display:block;	
 	margin:auto;
 }
 
-/*do I need to create several unique ones of these for each objecttag or can I style several with this one class?*/
-.mapoverlay1 {
+/*each of these is the clickable object superimposed on map*/
+.mapoverlay1, .mapoverlay2, .mapoverlay3 {
 	position:absolute;
-	top:50%;
-	left:55%;
 	width:10%;
 	height:5%;
 }
 
-.mapoverlay1 img {
+.tag {
 	width:100%;
 }
+
+/*Unique positions for each clickable map marker*/
+.mapoverlay1 {
+	top:27%;
+	left:57%;
+}
+
+.mapoverlay2 {
+	top:66%;
+	left:10%;
+}
+
+.mapoverlay3 {
+	top:72%;
+	left:40%;
+}
+
 
 /*Index Page About Box below Map*/
 .aboutbox {
@@ -120,52 +135,62 @@ a {
 	margin:auto;
 	padding:2%;
 	font-family: "Tahoma", sans-serif;
+	text-align:center;
 }
 
 .aboutbox h4 {	
 	font-size: 20px;
-	text-align:center;
 }
 
 .aboutbox p {
 	font-size:15px;
 }
 
-
-.aboutbox li {
-	list-style: none;
-	font-size: 15px;
+.aboutbox a {
+    text-decoration:none;
+	color:#FF0066;
+	font-size:15px;
+	font-weight: bold;
 }
+	
 
+.aboutbox a:hover {
+	text-decoration:none;
+	color:black;
+	font-size:15px;
+	font-weight: bold;
+}
 
 
 /*Ride Page Styling*/
 
-.rideimage {
+/*.rideimage {
 	width: 45%;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	float: left;
-}
+}*/
 
-.aboutride {
+
+/*.aboutride {
 	width: 25%;
-	height: 295px; /*How to make this equal to image height?*/
+	height: 295px; How to make this equal to image height?
 	background-color: lightblue;
 	border-top-right-radius: 10px;
 	border-bottom-right-radius: 10px;
 	float: left;
-}
+}*/
 
-.ride {
+/*.ride {
 	background-color: lavender;
 	border-radius: 10px;
 	padding: 20px;
 	width: 85%;
 	margin: auto;
 	margin-top: 3%;
-}
-.description {
+}*/
+
+/*.description {
 	width: 25%;
 	font-size: 14px;
 	font-family: "Tahoma", sans-serif;
@@ -174,24 +199,25 @@ a {
 	border-radius: 10px;
 	padding: 10px;
 	float: left;
-}
+}*/
 
-h4 {
+/*h4 {
 	font-family: "Tahoma", sans-serif;
 	font-size: 17px;
 	margin-top: 0px;
-}
+}*/
 
 
-li {
+/*li {
 	list-style: none;
 	font-family: "Tahoma", sans-serif;
 	font-size: 14px;
-}
+}*/
 
 
 
 
-.clear {
+/*.clear {
 	clear: both;
 }
+*/
