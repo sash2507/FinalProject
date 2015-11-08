@@ -75,13 +75,12 @@ li a:hover {
 
 /*Index Page styling with some elements repeated across linked pages*/
 
-#mapwrap, .aboutwrap, #rideone {
+#mapwrap, .aboutwrap, .infoTopWrap {
 	background-color: lavender;
 	border-radius: 10px;
 	padding: 20px;
 	width: 85%;
-	margin: auto;
-	margin-top: 3%;
+	margin:3% auto;
 }
 
 /*Index page Map with clickable elements*/
@@ -127,10 +126,10 @@ li a:hover {
 }
 
 
-/*Index Page About Box below Map*/
-.aboutbox {
+/*Index Page About Box below Map. InfoTop uses same styling on Info page*/
+.aboutbox, .infoTop {
 	width:98%;
-	height: 98%;
+	height:98%;
 	background-color: white;
 	margin:auto;
 	padding:2%;
@@ -161,6 +160,61 @@ li a:hover {
 	font-weight: bold;
 }
 
+
+/*InfoBooth info boxes. Infobox goes inside infowrap*/
+
+.infoTop h4 {	
+	font-size: 20px;
+}
+
+.infoTop p {
+	font-size:15px;
+}
+
+
+.infocontainer {
+	width:80%;
+	margin:auto;
+}
+
+
+.infowrap {
+	display:block-inline;
+	background-color: lavender;
+	border-radius: 10px;
+	padding: 20px;
+	width: 45%;
+	float:left;
+	margin-left: 4%;
+	margin-top: 2%;	
+	margin-bottom:3%;
+
+}
+
+
+.infobox {
+	width:98%;
+	height: 98%;
+	background-color: white;
+	margin:auto;
+	padding:2%;
+	font-family: "Tahoma", sans-serif;
+	text-align:center;
+}
+
+.infobox h4 {	
+	font-size: 20px;
+}
+
+.infobox p {
+	font-size:15px;
+}
+
+.infobox img {
+	display:block;
+	margin:auto;
+	width:90%;
+}
 
 /*Ride Page Styling*/
 
@@ -213,8 +267,6 @@ li a:hover {
 	font-family: "Tahoma", sans-serif;
 	font-size: 14px;
 }*/
-
-
 
 
 /*.clear {
