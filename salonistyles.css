@@ -9,15 +9,18 @@
 	height: 100%;
 	z-index: -1;
 }
-/*Styling of this div is a placeholder. I intend to create a logo img for this header.*/
+/*Container for logo img*/
 .header {
 	width:100%;
+	padding-top:1%;
 	margin-right:auto;
 	margin-left:auto;
-	background-color:orange;
-	height: 100px;
-	text-align:center;
-	font-family:Verdana;
+	height:25%;	
+}
+.header img {
+	display:block;
+	width:50%;
+	margin:auto;
 }
 /*Nav Bar styling*/
 nav ul {
@@ -62,13 +65,13 @@ a {
 	color: white;
 }
 /*Ride Page Styling*/
-.rideimage {
+.rideimage, .eatimage {
 	width: 45%;
 	border-top-left-radius: 10px;
 	border-bottom-left-radius: 10px;
 	float: left;
 }
-.aboutride {
+.aboutride, .abouteat {
 	width: 25%;
 	height: 295px; 
 	background-color: lightblue;
@@ -76,7 +79,7 @@ a {
 	border-bottom-right-radius: 10px;
 	float: left;
 }
-.ride {
+.ride, .eat {
 	background-color: lavender;
 	border-radius: 10px;
 	padding: 20px;
