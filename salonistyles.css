@@ -9,7 +9,7 @@
 	height: 100%;
 	z-index: -1;
 }
-/*Container for logo img*/
+/*Header and Logo img styling*/
 .header {
 	width:100%;
 	padding-top:1%;
@@ -64,19 +64,18 @@ a {
 	margin-top: 3%;
 	color: white;
 }
-/*Ride Page Styling*/
+/*Styling for divs on Rides and Eats pages*/
 .rideimage, .eatimage {
 	width: 45%;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-radius: 10px;
 	float: left;
 }
-.aboutride, .abouteat {
+.aboutride {
 	width: 25%;
-	height: 295px; 
-	background-color: lightblue;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
+	float: left;
+}
+.abouteat {
+	width: 50%;
 	float: left;
 }
 .ride, .eat {
@@ -97,6 +96,16 @@ a {
 	padding: 10px;
 	float: left;
 }
+.description2 {
+	width: 100%;
+	font-size: 14px;
+	font-family: "Tahoma", sans-serif;
+	background-color: #AFEEEE;
+	margin-top: 15px;
+	border-radius: 10px;
+	padding: 10px;
+	float: left;
+}
 h4 {
 	font-family: "Tahoma", sans-serif;
 	font-size: 17px;
@@ -109,4 +118,87 @@ li {
 }
 .clear {
 	clear: both;
+}
+/*Media query that adjusts (portrait) display of page across various mobile devices*/
+@media screen and (max-width: 900px) {
+	nav ul {
+		padding: 0px, 0px;
+		text-align: center;
+	}
+	nav li {
+		width: 100%;
+		float: left;
+		text-align: center;
+		display: block;
+	}
+	.ride, .eat {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.rideimage, .eatimage, .description, .description2 {
+		width: 65%;
+		margin: 0 auto;
+		float: left;
+		border-radius: 10px;
+	}
+	.aboutride, .abouteat {
+		width: 200px;
+		margin: 0 auto;
+	}
+	#pglocation {
+		margin: 0 auto;
+	}
+}
+/*Media query that adjusts (portrait) display across larger phones (iPhone 6 Plus) and smaller tablets*/
+@media screen and (max-width: 675px) {
+	nav ul {
+		padding: 0px, 0px;
+		text-align: center;
+	}
+	nav li {
+		width: 100%;
+		float: left;
+		text-align: center;
+		display: block;
+	}
+	.ride, .eat {
+		width: 100%;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.rideimage, .eatimage, .description, .description2 {
+		width: 300px;
+		margin: 0 auto;
+		float: left;
+		border-radius: 10px;
+		font-size: 12px;
+	}
+	#pglocation {
+		margin: 0 auto;
+	}
+	.aboutride, .abouteat {
+		width: 200px;
+	}
+	h4 {
+		font-size: 15px;
+	}
+	li {
+		font-size: 12px;
+	}
+}
+/*Media query that adjusts (portrait) display across smaller phones (iPhone 5 and older)*/
+@media screen and (max-width: 575px) {
+	.description, .description2, #pglocation {
+		display: none;
+	}
+	.ride, .eat {
+		width: 90%;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.rideimage, .eatimage {
+		width: 200px;
+		float: none;
+	}
 }
