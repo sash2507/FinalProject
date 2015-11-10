@@ -1,7 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-/*Creates a uniform background using background image*/
+/*Creates a uniform background that stays fixed while scrolling*/
 .background {
 	background-image: url("images-saloni/background2.jpg");
 	position: fixed;
