@@ -1,30 +1,34 @@
 $(document).ready(function() {
-// Changes color of text inside divs when mouse enters the larger div 'ride'
-	$(".ride").mouseenter(function() {
-	 	$(".aboutride").css("color", "purple");
-		});
-	$(".ride").mouseleave(function() {
-	 	$(".aboutride").css("color", "black");
-		});
+// Enlarges the div upon mouseenter and returns back to default size upon mouseleave	
+	$('.rideone, .ridetwo, .ridethree, .ridefour, .ridefive')
+	.on('mouseenter', function(){
+		var div = $(this);
+		div.stop(true, true).animate({
+			width: "+=5%",
+			height: "+=5%"
+		}, 'fast');
+	})
+ 	.on('mouseleave', function(){
+ 		var div = $(this);
+ 		div.stop(true, true).animate({ 
+	        width: "-=5%",
+	        height: "-=5%"
+	        }, 'fast');
+	});
+	$('.eatone, .eattwo, .eatthree, .eatfour, .eatfive')
+	.on('mouseenter', function(){
+		var div = $(this);
+		div.stop(true, true).animate({
+			width: "+=5%",
+			height: "+=5%"
+		}, 'fast');
+	})
+ 	.on('mouseleave', function(){
+ 		var div = $(this);
+ 		div.stop(true, true).animate({ 
+	        width: "-=5%",
+	        height: "-=5%"
+	        }, 'fast');
+	});
 
-	$(".ride").mouseenter(function() {
-	 	$("p").css("color", "purple");
-		});
-	$(".ride").mouseleave(function() {
-	 	$("p").css("color", "black");
-		});
-	$(".eat").mouseenter(function() {
-	 	$(".abouteat").css("color", "purple");
-		});
-	$(".eat").mouseleave(function() {
-	 	$(".abouteat").css("color", "black");
-		});
-	$(".eat").mouseenter(function() {
-	 	$("p").css("color", "purple");
-		});
-	$(".eat").mouseleave(function() {
-	 	$("p").css("color", "black");
-		});
-//Created fade-in effect of nav bar
-	$("nav ul").hide(0).delay(300).fadeIn(2000);
 });

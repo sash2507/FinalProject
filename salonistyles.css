@@ -78,7 +78,15 @@ a {
 	width: 50%;
 	float: left;
 }
-.ride, .eat {
+.rideone, .ridetwo, .ridethree, .ridefour, .ridefive {
+	background-color: lavender;
+	border-radius: 10px;
+	padding: 20px;
+	width: 85%;
+	margin: auto;
+	margin-top: 3%;
+}
+.eatone .eattwo, .eatthree, .eatfour, .eatfive {
 	background-color: lavender;
 	border-radius: 10px;
 	padding: 20px;
@@ -131,7 +139,7 @@ li {
 		text-align: center;
 		display: block;
 	}
-	.ride, .eat {
+	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone .eattwo, .eatthree, .eatfour, .eatfive {
 		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 20px;
@@ -162,7 +170,7 @@ li {
 		text-align: center;
 		display: block;
 	}
-	.ride, .eat {
+	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone .eattwo, .eatthree, .eatfour, .eatfive {
 		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 20px;
@@ -192,7 +200,7 @@ li {
 	.description, .description2, #pglocation {
 		display: none;
 	}
-	.ride, .eat {
+	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone .eattwo, .eatthree, .eatfour, .eatfive {
 		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 10px;
