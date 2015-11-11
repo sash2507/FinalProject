@@ -244,6 +244,27 @@ li a:hover {
 		margin: 0 auto;
 	}
 
+	.infowrap {
+	display:block-inline;
+	background-color: lavender;
+	border-radius: 10px;
+	padding: 20px;
+	width: 80%;
+	float:left;
+	margin-right:2%;
+	margin-left:5%;
+	margin-top:2%;	
+	margin-bottom:3%;
+}
+
+.infobox a {
+	font-size:12px;
+	text-decoration:none;
+	font-weight:bold;
+}
+
+
+
 /*Media query that adjusts (portrait) display across larger phones (iPhone 6 Plus) and smaller tablets*/
 @media screen and (max-width: 675px) {
 	nav ul {
