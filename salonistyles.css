@@ -86,7 +86,7 @@ a {
 	margin: auto;
 	margin-top: 3%;
 }
-.eatone .eattwo, .eatthree, .eatfour, .eatfive {
+.eatone, .eattwo, .eatthree, .eatfour, .eatfive {
 	background-color: lavender;
 	border-radius: 10px;
 	padding: 20px;
