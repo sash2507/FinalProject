@@ -139,7 +139,7 @@ li {
 		text-align: center;
 		display: block;
 	}
-	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone .eattwo, .eatthree, .eatfour, .eatfive {
+	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone, .eattwo, .eatthree, .eatfour, .eatfive {
 		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 20px;
@@ -170,7 +170,7 @@ li {
 		text-align: center;
 		display: block;
 	}
-	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone .eattwo, .eatthree, .eatfour, .eatfive {
+	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone, .eattwo, .eatthree, .eatfour, .eatfive {
 		width: 100%;
 		margin: 0 auto;
 		margin-bottom: 20px;
@@ -200,7 +200,7 @@ li {
 	.description, .description2, #pglocation {
 		display: none;
 	}
-	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone .eattwo, .eatthree, .eatfour, .eatfive {
+	.rideone, .ridetwo, .ridethree, .ridefour, .ridefive, .eatone, .eattwo, .eatthree, .eatfour, .eatfive {
 		width: 90%;
 		margin: 0 auto;
 		margin-bottom: 10px;
